@@ -167,7 +167,7 @@ const LoginScreen = () => {
             </Link>
           </Box>
         </Box>
-        <Box sx={{ mt: 4, textAlign: 'center' }}>
+        {/* <Box sx={{ mt: 4, textAlign: 'center' }}>
           <Typography variant="body2" sx={{ color: 'white', mb: 2 }}>
             Login with Social Network
           </Typography>
@@ -180,7 +180,7 @@ const LoginScreen = () => {
           <IconButton sx={{ color: '#db4437' }}>
             <GoogleIcon />
           </IconButton>
-        </Box>
+        </Box> */}
       </LoginBox>
     </BackgroundContainer>
   );

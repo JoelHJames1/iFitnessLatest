@@ -19,7 +19,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import GoogleIcon from '@mui/icons-material/Google';
 
 const BackgroundContainer = styled(Container)({
-  backgroundImage: `url('/src/images/logo2.png')`,
+  backgroundImage: `url('/src/images/Logo2.png')`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   minHeight: '100vh',
@@ -181,7 +181,7 @@ const RegisterScreen = () => {
             </Link>
           </Box>
         </Box>
-        <Box sx={{ mt: 4, textAlign: 'center' }}>
+        {/* <Box sx={{ mt: 4, textAlign: 'center' }}>
           <Typography variant="body2" sx={{ color: 'white', mb: 2 }}>
             Register with Social Network
           </Typography>
@@ -194,7 +194,7 @@ const RegisterScreen = () => {
           <IconButton sx={{ color: '#db4437' }}>
             <GoogleIcon />
           </IconButton>
-        </Box>
+        </Box> */}
       </RegisterBox>
     </BackgroundContainer>
   );
